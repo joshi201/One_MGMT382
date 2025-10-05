@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!DOCtype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Khaana | Customer Testimonials</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body { margin:16px; line-height:1.5; background:#fffef9; color:#222; }
+    img { max-width:100%; height:auto; border-radius:8px; }
+    h1, h2 { margin: 0.5rem 0 0.25rem; }
+    .note { font-family: Georgia, "Times New Roman", serif; }     /* font style 1 */
+    .alt  { font-family: Arial, Helvetica, sans-serif; }          /* font style 2 */
+    .small { font-size:14px; }                                    /* size 1 (non-header) */
+    .big   { font-size:18px; }                                    /* size 2 (non-header) */
+    .red   { color:#b22222; }                                     /* font color 1 */
+    .green { color:#0b6a34; }                                     /* font color 2 */
+    footer { margin-top:28px; font-size:12px; border-top:1px dashed #ddd; padding-top:8px; }
+  </style>
+</head>
+<body>
+  <h1 class="red">Khaana – <u>Customer Testimonials</u></h1> <!-- underlining -->
+  <p class="big alt"><b>Real stories</b> from guests who love our tacos, our late-night <i>mariachi</i> vibe, and the weekend food truck.</p>
+
+  <p class="small note">Here’s the thing: the best marketing is what our <span class="green"><b>customers</b></span> say. Below are quick shoutouts and longer <i>success stories</i>.</p>
+
+  <h2>Quick shoutouts</h2>
+  <ul>
+    <li class="alt"><span class="green"><b>Jasmine P.</b></span>: “The salsa verde is fire and the band after 8 PM is a whole mood.”</li>
+    <li class="alt"><span class="red"><b>Marcus T.</b></span>: “Caught the food truck on Saturday — carne asada tacos were gone in minutes.”</li>
+    <li class="alt"><b>Sofia R.</b>: “Staff remembered my order and called me a "regular". Made my day!”</li>
+  </ul>
+
+  <h2>Customer success stories</h2>
+  <ol>
+    <li class="note"><b>Birthday fix</b>: last-minute dessert flight, mariachis did <i>Las Mañanitas</i>. Family happy, photos for days.</li>
+    <li class="note"><b>Study group fuel</b>: Friday food truck drop at Memorial Mall kept a 6-person cram alive. <i>No one crashed.</i></li>
+    <li class="note"><b>Date night rescue</b>: table by the band, split fajitas, free churros after 9. <u>They booked again next week.</u></li>
+  </ol>
+
+  <p class="alt small">Vibe check: 
+    <a href="https://en.wikipedia.org/wiki/Mariachi" target="_blank" rel="noopener noreferrer"><b>Learn about mariachi</b></a>.
+  </p>
+
+  <p class="note small">Menu and catering info: 
+    <a href="Khaana-Menu.pdf" download>Download our one-page menu (PDF)</a>
+  </p>
+
+  <p class="alt small">Questions or quotes?
+    <a href="mailto:khaana.testimonials@gmail.com?subject=Khaana%20Testimonials%20Page"><u>Email the page creator</u></a>.
+  </p>
+
+  <footer class="small">
+    <div><b>Address:</b> 123 Chaahat Ave, West Lafayette, IN • Food truck: Sat–Sun</div>
+    <div><b>Hours:</b> Restaurant 11am–10pm • Mariachi after 8 PM nightly</div>
+    <div><b>Date last modified:</b> <script>document.write(document.lastModified);</script></div>
+  </footer>
+</body>
+</html>
